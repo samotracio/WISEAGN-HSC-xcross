@@ -8,3 +8,6 @@ This implements a log-normal mixture model to separate between obscured/unobscur
 
 ## wiseagn_cross_hsc.ipynb
 This notebook has two parts: the first one is to select various subsamples of AGN, plus the galaxies, plus the randoms. The second actually calculates the CCFs and generate plots. To run you need the AGN catalog with classifications C75_gmmclass.parquet (ouput by gmm_split.ipynb), masked_hscx_c_gal.parquet (the HSC galaxies), and rands100_1.fits (a big pool of 100mill randoms for HSC galaxies). I have put these files in Google Drive.
+
+## other files
+These are the ouput files that Gundam produces for each correlation run, including the *.cnt files that you can plot directly. Check the names in wiseagn_cross_hsc.ipynb to associate each run to its sample.
