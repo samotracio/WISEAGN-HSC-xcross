@@ -25,4 +25,4 @@ These are the ouput cnt files that Gundam produces for each correlation run. You
 
 ## DONE
 ---
-* Added mask to HSC+WISE
+* Added mask for HSC+WISE (spikes+halo+ghosts, no moon)
